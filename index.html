@@ -51,6 +51,13 @@ p {
     text-decoration: none;
 }
 
+.social i {
+    margin: .3em;
+    cursor: pointer;
+    transition: color 300ms ease, margin-top 300ms ease;
+    transform: translateZ(0);
+}
+
 </style>
 
 <body>
@@ -83,8 +90,8 @@ p {
 	<a href="mailto:srevinod@gmail.com">email</a>.
 	</p>
 	 <div class="social">
-          <a href="http://linkedin.com/in/srevinod" onclick="trackOutboundLink('http://linkedin.com/in/srevinod'); return false;"><i id="linkedin" class="icon-linkedin-sign"></i></a>
-          <a href="https://github.com/vinseeni" onclick="trackOutboundLink('https://github.com/vinseeni'); return false;"><i id="github" class="icon-github"></i></a>
+          <a href="http://linkedin.com/in/srevinod" <i id="linkedin" class="icon-linkedin-sign"></i></a>
+          <a href="https://github.com/vinseeni"><i id="github" class="icon-github"></i></a>
           <a href="mailto:srevinod@gmail.com"><i id="mail" class="icon-envelope"></i></a>
         </div>
 
