@@ -4,6 +4,9 @@
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
 	<meta name="google-site-verification" content="DfuRITPymI-231c2gk8UoqzFFOH8GJ0a1T8u6xzXbHI" />
 	<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+	 <!-- icons -->
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <!--  -->
 </head>
 
 <style>
@@ -17,12 +20,33 @@ h1 {
 }
 p {
 	font-family: Lato;
-	font-size: 18px;
+	font-size: 17px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 400;
 	line-height: 140%;
 }
+
+.me {
+    display: block;
+    margin: 1em auto;
+    margin-bottom: 1.5em;
+    margin-top: 1.5em;
+    width: 235px;
+    height: 220px;
+    border-radius: 50%;
+    position: relative;
+    z-index: 2;
+}
+
+.social {
+    text-align: center;
+    font-size: 2em;
+    color: #555;
+    overflow: hidden;
+    margin-bottom: 1em;
+}
+
 </style>
 
 <body>
@@ -37,13 +61,12 @@ p {
 
 </script>
 	<h1><b>Hey There!</b></h1>
-	<img src="./resources/images/srevinod_circular.png" style="width:300px;height:260px;">
-	<p>I'm a Mechanical Engineering senior at The National University of Singapore.</p>
-	<p>I love all kinds of tech products - both <b> hardware </b> and <b>software</b>. </p>
-	<p>Be it personal flying machines or payment gateways, I have a keen interest in coding, designing and building cool products.</p>
+	<img class= "me" src="./resources/images/srevinod_circular.png" >
+	<p>I'm a Mechanical Engineering senior at The National University of Singapore. </p>
+	<p> I love all kinds of tech products - both <b> hardware </b> and <b>software</b>. Be it personal flying machines <br> or payment gateways, I have a keen interest in coding, designing and building cool products.</br></p>
 	<p>I previously interned at 
 		<a href="http://www8.hp.com/us/en/hp-information/index.html">HP INC</a> as a R&amp;D Mechanical Engineer (Singapore, 2017), 
-		<a href="https://emergentpayments.net/">Emergent Payments</a> (Palo Alto, USA, 2016), 
+		<a href="https://emergentpayments.net/">Emergent Payments</a> (Palo Alto, USA, 2016),<br>
 		<a href="http://www.moneysmart.sg/">MoneySmart</a> (Singapore, 2015).
 		<a href="http://www.singaporeair.com/en_UK/sg/home/">Singapore Airlines</a> (Singapore, 2013).
 	</p>
@@ -55,5 +78,11 @@ p {
 	<p>You can also reach me at my 
 	<a href="mailto:srevinod@gmail.com">email</a>.
 	</p>
+	 <div class="social">
+          <a href="http://linkedin.com/in/srevinod" onclick="trackOutboundLink('http://linkedin.com/in/srevinod'); return false;"><i id="linkedin" class="icon-linkedin-sign"></i></a>
+          <a href="https://github.com/vinseeni" onclick="trackOutboundLink('https://github.com/vinseeni'); return false;"><i id="github" class="icon-github"></i></a>
+          <a href="mailto:srevinod@gmail.com"><i id="mail" class="icon-envelope"></i></a>
+        </div>
+
 </body>
 </html>
